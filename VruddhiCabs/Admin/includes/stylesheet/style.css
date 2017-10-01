@@ -1,0 +1,243 @@
+@CHARSET "ISO-8859-1";
+h3{
+	font-family: 'Calibri', sans-serif;
+	font-weight: normal;
+	color: #122852;
+	font-size: 1.6em;
+}
+h4{
+	font-family: 'Calibri', sans-serif;
+	font-weight: normal;
+	color: #122852;
+	font-size: 1.1em;
+}
+a{
+	text-decoration: none;
+}
+#logo {
+	width: 980px;
+	margin: 0px auto;
+	padding: 10px 0px 0px 0px;
+	color: #400080;
+}
+
+#logo h1, #logo p {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#logo h1 {
+	margin: 0px;
+	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 54px;
+	font-weight: bold;
+	color: #710000;
+}
+#logo p {
+	margin-top: -10px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald', serif;
+	font-size: 18px;
+    margin-left: 20px;
+}
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #444444;
+}
+.address{
+	text-align: center;
+    font-family: 'calibri', serif;
+    font-size: 14px;
+    margin-top: -15px;
+}
+.page_content {
+	width:950px;
+    margin: auto;
+}
+.page_content2 {
+	width:950px;
+    margin: auto;
+    margin-right: 85px;
+}
+.table_split {
+   
+}
+input[type="text"]  {
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+input[type="password"]  {
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+.drop_down{
+   /* margin: 10px;
+   border: 1px solid #111;
+   background: transparent; */
+   padding: 10px;
+   border: solid 1px #dcdcdc;
+   transition: box-shadow 0.3s, border 0.3s;
+} 
+.alink:link, .alink:visited {
+    background-color: rgba(111, 156, 22, 0.58);;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    width: 330px;
+    font-family: calibri;
+    border-radius: 3px;
+}
+.alink:hover, .alink:active {
+    background-color: #773c3c;
+    color: white;
+}
+.admin_passenger_panel {
+    display: table-cell;
+    min-width: 500px;
+    margin-left: 500px;
+}
+.admin_logistics_panel {
+    display: table-cell;
+    width: 100%;
+    vertical-align: top;
+}
+.submit_button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: rgb(45, 94, 173);
+  width: 305px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.submit_button:hover{
+  background: rgb(6, 45, 109);
+}
+.submit_button_login {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: rgb(45, 94, 173);
+  width: 192px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.submit_button_login:hover{
+  background: rgb(6, 45, 109);
+}
+.submit_button_table {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: rgb(45, 94, 173);
+  width: 153px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.submit_button_table:hover{
+  background: rgb(6, 45, 109);
+}
+.message_panel{
+	color: red;
+}
+table.table_style{
+	text-align: center;
+	border: 1px solid #000000;
+    border-collapse: collapse;
+    table-layout: auto;
+    font-family: calibri;
+}
+table.table_style td{
+	border: 1px solid #000000;
+    padding: 10px;
+    background-color: #ffffff;
+}
+table.table_style th{
+	border: 1px solid #000000;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #122852;
+}
+table.table_style_footer{
+	text-align: justify;
+    border-collapse: collapse;
+    table-layout: auto;
+    margin-left: 190px;
+    font-size: 14px;
+    width: 630px;
+    font-family: calibri;
+}
+table.table_style_footer td{
+    /* background-color: #c0c0c0; */
+}
+table.table_style_footer th{
+    color: #ffffff;
+    /* background-color: #c0c0c0; */
+}
+.footer{
+	text-align: justify;
+	font-size: 14px;
+	display: table;
+  	margin: auto;
+  	color: white;
+}
+.left {
+    display: table-cell;
+    min-width: 500px;
+}
+.right {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: -40px auto 10px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  
+}
+.login_admin{
+	    float: right;
+    margin-top: -130px;
+    margin-right: 223px;
+    font-family: cambria;
+}
+

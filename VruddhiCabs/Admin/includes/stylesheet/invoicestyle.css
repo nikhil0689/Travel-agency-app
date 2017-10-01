@@ -1,0 +1,256 @@
+table.sum_table{
+	text-align: center;
+	border: 1px solid #000000;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+table.sum_table td{
+	border: 1px solid #000000;
+    padding: 15px;
+    background-color: #ffffff;
+}
+table.sum_table th{
+	border: 1px solid #000000;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #122852;
+}
+h3{
+	font-family: 'Calibri', sans-serif;
+	font-weight: normal;
+	color: #122852;
+	font-size: 1.6em;
+}
+h4{
+	font-family: 'Calibri', sans-serif;
+	font-weight: normal;
+	color: #122852;
+	font-size: 1.1em;
+}
+a{
+	text-decoration: none;
+}
+#logo {
+	width: 980px;
+	margin: 0px auto;
+	padding: 10px 0px 0px 0px;
+	color: #400080;
+}
+
+#logo h1, #logo p {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#logo h1 {
+	margin: 0px;
+	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 54px;
+	color: #710000;
+}
+#logo p {
+	margin-top: -10px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Calibri', serif;
+	font-size: 18px;
+    margin-left: 20px;
+}
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #444444;
+}
+.address{
+	text-align: center;
+    font-family: 'calibri', serif;
+    font-size: 14px;
+    margin-top: -15px;
+    margin-left: 10px;
+}
+.footer1{
+    font-family: 'calibri', serif;
+    font-size: 14px;
+    margin-top: -15px;
+    margin-left: 25px;
+}
+.page_content {
+	width:950px;
+    margin: auto;
+    border: thick;
+}
+.invoice{
+	margin-left: 50px;
+	margin-bottom: 25px;
+}
+.left {
+    display: table-cell;
+    min-width: 500px;
+    margin-left: 50px;
+}
+.right {
+    display: table-cell;
+    width: 100%;
+    vertical-align: top;
+    margin-left: 400px;
+    margin-top: -280px;
+}
+.invoice-box{
+    max-width:600px;
+    margin-left:40px;
+    margin-right:40px;
+    padding:5px;
+    box-shadow:0 0 10px rgba(0, 0, 0, .15);
+    font-size:16px;
+    line-height:24px;
+    font-family:Calibri;
+    color:#555;
+}
+    
+.invoice-box table{
+    width:100%;
+    line-height:inherit;
+    text-align:left;
+}
+
+.invoice-box table td{
+    padding:5px;
+    vertical-align:top;
+}
+
+.invoice-box table tr td:nth-child(2){
+    text-align:right;
+}
+
+.invoice-box table tr.top table td{
+    padding-bottom:30px;
+    margin-left: 600px;
+}
+
+.invoice-box table tr.top table td.title{
+    font-size:45px;
+    line-height:45px;
+    color:#333;
+}
+
+.invoice-box table tr.information table td{
+    padding-bottom:10px;
+}
+
+.invoice-box table tr.heading td{
+    background:#eee;
+    border-bottom:1px solid #ddd;
+    font-weight:bold;
+}
+
+.invoice-box table tr.details td{
+    padding-bottom:10px;
+}
+
+.invoice-box table tr.item td{
+    border-bottom:1px solid #eee;
+}
+
+.invoice-box table tr.item.last td{
+    border-bottom:none;
+}
+
+.invoice-box table tr.total td:nth-child(2){
+    border-top:2px solid #eee;
+    font-weight:bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .invoice-box table tr.top table td{
+        width:100%;
+        display:block;
+        text-align:center;
+    }
+    
+    .invoice-box table tr.information table td{
+        width:100%;
+        display:block;
+        text-align:center;
+    }
+}
+.report_box{
+    max-width:600px;
+    margin-left:40px;
+    margin-right:40px;
+    margin-top: -20px;
+    box-shadow:0 0 10px rgba(0, 0, 0, .15);
+    font-size:16px;
+    line-height:24px;
+    font-family:Calibri;
+    color:#555;
+}
+    
+.report_box table{
+    width:100%;
+    line-height:inherit;
+    text-align:left;
+}
+
+.report_box table td{
+    padding:5px;
+    vertical-align:top;
+}
+
+.report_box table tr td:nth-child(2){
+    text-align:right;
+}
+
+.report_box table tr.top table td{
+    padding-bottom:30px;
+    margin-left: 600px;
+}
+
+.report_box table tr.top table td.title{
+    font-size:45px;
+    line-height:45px;
+    color:#333;
+}
+
+.report_box table tr.information table td{
+    padding-bottom:10px;
+}
+
+.report_box table tr.heading td{
+    background:#eee;
+    border-bottom:1px solid #ddd;
+    font-weight:bold;
+}
+
+.report_box table tr.details td{
+    padding-bottom:10px;
+}
+
+.report_box table tr.item td{
+    border-bottom:1px solid #eee;
+}
+
+.report_box table tr.item.last td{
+    border-bottom:none;
+}
+
+.report_box table tr.total td:nth-child(2){
+    border-top:2px solid #eee;
+    font-weight:bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .report_box table tr.top table td{
+        width:100%;
+        display:block;
+        text-align:center;
+    }
+    
+    .report_box table tr.information table td{
+        width:100%;
+        display:block;
+        text-align:center;
+    }
+}
